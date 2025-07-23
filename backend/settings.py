@@ -16,6 +16,11 @@ SECRET_KEY = 'django-insecure-kej6k+ny+=f(wg&bhvlro3qxb0c@j1^%0zuuv$_xbw#lyufprf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://django-chat-app-upze.onrender.com'
+]
+
+
 ALLOWED_HOSTS = [
     'django-chat-app-upze.onrender.com',
     'localhost',
