@@ -1,0 +1,44 @@
+# Byte‑compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# SQLite database
+*.sqlite3
+
+# Django-specific
+*.log
+*.pot
+local_settings.py
+.env
+
+# Static & media (if you collect or store them locally)
+media/
+staticfiles/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test/coverage
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+
+# Build artifacts / distributions
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
