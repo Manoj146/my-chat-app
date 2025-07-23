@@ -179,7 +179,9 @@
   </div>
 
   <script>
-    const socketURL = `ws://${window.location.host}/ws/messages/{{room_name}}/`;
+    const protocol = window.location.protocol === "https:" ? "wss" : "ws";
+    const socketURL = `${protocol}://${window.location.host}/ws/messages/{{room_name}}/`;
+
     console.log("Establishing Socket Connection");
     const socket = new WebSocket(socketURL);
 
@@ -228,4 +230,4 @@
   </script>
 </body>
 
-</html>
+</html> 
